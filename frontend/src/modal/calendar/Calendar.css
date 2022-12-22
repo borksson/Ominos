@@ -1,0 +1,22 @@
+.calendar-body {
+    width: 100%;
+    height: wrap-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.days-title {
+    width: 100%;
+    height: wrap-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.calendar {
+    align-items: center;
+}
