@@ -1,10 +1,16 @@
-import AdminCalendarModal from "./modal/AdminCalendarModal";
+import TAModal from "./modal/TAModal";
+import TACalendarModal from "./modal/TACalendarModal";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    //<div>text</div>
-    <AdminCalendarModal/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<TAModal/>}/>
+        <Route path="/schedule" element={<TACalendarModal/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
